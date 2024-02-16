@@ -49,13 +49,13 @@
     ```
 * OUTPUTS. 
 
-    ![check_conn](/images/week2-images/check_conn.png)
+    ![check_conn](images/week2-images/check_conn.png)
 
 ### Improvement of Connection Time 
 
 * The modem automatically searches for possibilities for connection. GSM connection is supported in our country. I reduced the connection speed by setting the connection via GSM instead of automatic search.
 
-    ![improvment_conn](/images/week2-images/improvement_of_conn_time.png)
+    ![improvment_conn](images/week2-images/improvement_of_conn_time.png)
 
 ### Network Connection Control
 
@@ -64,7 +64,7 @@
 * Additionally, I used the `check_apn()` command to get the **apn** value and got **{'response': ['AT+CGDCONT?\r', '+CGDCONT: 1, "IP", "super", "0.0.0.0.0",0,0,0,0', 'OK'], 'status': 0}**. 
 * OUTPUTS.
 
-    ![check_network](/images/week2-images/check_network.png)
+    ![check_network](images/week2-images/check_network.png)
 
 ### HTTP Requests to webhook.site
 
@@ -79,11 +79,11 @@
         }
     ```
 * I tested the connection by running the **post.py** file, which is one of the sample codes in the Pico LTE SDK, after examining it. It was successful. 
-    ![post_ok](/images/week2-images/post_ok.png) 
-    ![webhook_post_ok](/images/week2-images/webhook_post_ok.png) 
+    ![post_ok](images/week2-images/post_ok.png) 
+    ![webhook_post_ok](images/week2-images/webhook_post_ok.png) 
 * After the POST request was successful, I switched to the GET request and tested the connection by running the **get.py** file, which is one of the sample codes for this, after reviewing it. It was successful. 
-    ![get_ok](/images/week2-images/get_ok.png) 
-    ![webhook_get_ok](/images/week2-images/webhook_get_ok.png)
+    ![get_ok](images/week2-images/get_ok.png) 
+    ![webhook_get_ok](images/week2-images/webhook_get_ok.png)
 
 ### Sending Message to Telegram
 
@@ -97,8 +97,8 @@
         }
     ```
 * I ran **send_message.py** in the Pico LTE SDK to send a message to the telegram bot. It successfully sent the message.
-    ![telegram_ok](/images/week2-images/telegram_ok.png)
-    ![telegram_ok](/images/week2-images/telegram_ok_2.png)
+    ![telegram_ok](images/week2-images/telegram_ok.png)
+    ![telegram_ok](images/week2-images/telegram_ok_2.png)
 
 
 ### Extras 
