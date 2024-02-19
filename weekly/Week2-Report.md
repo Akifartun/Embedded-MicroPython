@@ -11,8 +11,10 @@
 
 ### Sixfab Pico LTE Setup 
 
-* I connected the Sixfab Pico LTE development board to the computer with a usb cable while holding down the BOOTSEL button. * In Thonny IDE, I installed MicroPython into Raspberry Pico W by clicking where the Python version appears at the bottom right. 
-* I downloaded [Sixfab Pico LTE SDK](https://github.com/sixfab/pico_lte_micropython-sdk) from Github. * I opened the folder with the downloaded folder in Thonny IDE and sent this folder to Raspberry Pico W using **"Upload to /"**. This way I completed the installation.
+* I connected the Sixfab Pico LTE development board to the computer with a usb cable while holding down the BOOTSEL button. 
+* In Thonny IDE, I installed MicroPython into Raspberry Pico W by clicking where the Python version appears at the bottom right. 
+* I downloaded [Sixfab Pico LTE SDK](https://github.com/sixfab/pico_lte_micropython-sdk) from Github. 
+* I opened the folder with the downloaded folder in Thonny IDE and sent this folder to Raspberry Pico W using **"Upload to /"**. This way I completed the installation.
 
 ### Applications without Modem- Button, LED, NeoPixel LED 
 
@@ -49,13 +51,13 @@
     ```
 * OUTPUTS. 
 
-    ![check_conn](/images/week2-images/check_conn.png)
+    ![check_conn](images/week2-images/check_conn.png)
 
 ### Improvement of Connection Time 
 
 * The modem automatically searches for possibilities for connection. GSM connection is supported in our country. I reduced the connection speed by setting the connection via GSM instead of automatic search.
 
-    ![improvment_conn](/images/week2-images/improvement_of_conn_time.png)
+    ![improvment_conn](images/week2-images/improvement_of_conn_time.png)
 
 ### Network Connection Control
 
@@ -64,11 +66,12 @@
 * Additionally, I used the `check_apn()` command to get the **apn** value and got **{'response': ['AT+CGDCONT?\r', '+CGDCONT: 1, "IP", "super", "0.0.0.0.0",0,0,0,0', 'OK'], 'status': 0}**. 
 * OUTPUTS.
 
-    ![check_network](/images/week2-images/check_network.png)
+    ![check_network](images/week2-images/check_network.png)
 
 ### HTTP Requests to webhook.site
 
-* Firstly, I implemented the HTTP POST request. * In order to provide HTTP requests, I first edited a file named **config.json**.
+* Firstly, I implemented the HTTP POST request. 
+* In order to provide HTTP requests, I first edited a file named **config.json**.
     ```
         {
             "https":{
@@ -79,15 +82,17 @@
         }
     ```
 * I tested the connection by running the **post.py** file, which is one of the sample codes in the Pico LTE SDK, after examining it. It was successful. 
-    ![post_ok](/images/week2-images/post_ok.png) 
-    ![webhook_post_ok](/images/week2-images/webhook_post_ok.png) 
+    ![post_ok](images/week2-images/post_ok.png) 
+    ![webhook_post_ok](images/week2-images/webhook_post_ok.png) 
 * After the POST request was successful, I switched to the GET request and tested the connection by running the **get.py** file, which is one of the sample codes for this, after reviewing it. It was successful. 
-    ![get_ok](/images/week2-images/get_ok.png) 
-    ![webhook_get_ok](/images/week2-images/webhook_get_ok.png)
+    ![get_ok](images/week2-images/get_ok.png) 
+    ![webhook_get_ok](images/week2-images/webhook_get_ok.png)
 
 ### Sending Message to Telegram
 
-* In order to send information over the modem in Telegram, I first set up a Telegram bot. I got the token information of this bot I set up. * With the token I obtained, I opened the "https://api.telegram.org/botYOUR_ACCESS_TOKEN/getUpdates" site and got the **chat-id** value. * I added **chat-id** and **token** information to the **config.json** file as I do in HTTP requests.
+* In order to send information over the modem in Telegram, I first set up a Telegram bot. I got the token information of this bot I set up. 
+* With the token I obtained, I opened the "https://api.telegram.org/botYOUR_ACCESS_TOKEN/getUpdates" site and got the **chat-id** value. 
+* I added **chat-id** and **token** information to the **config.json** file as I do in HTTP requests.
     ```
         {
             "telegram": {
@@ -97,8 +102,8 @@
         }
     ```
 * I ran **send_message.py** in the Pico LTE SDK to send a message to the telegram bot. It successfully sent the message.
-    ![telegram_ok](/images/week2-images/telegram_ok.png)
-    ![telegram_ok](/images/week2-images/telegram_ok_2.png)
+    ![telegram_ok](images/week2-images/telegram_ok.png)
+    ![telegram_ok](images/week2-images/telegram_ok_2.png)
 
 
 ### Extras 
@@ -112,4 +117,5 @@
             ONGOING = 3
             UNKNOWN = 99
     ```
-* I have learnt that **debug.py** file in **utils** folder in Pico LTE SDK is necessary for information outputs after the operations performed. I have learnt that **manager.py** file in **utils** folder in Pico LTE SDK is one of the important files. The **Step** class here works by taking certain parameters and by determining the next step to run within itself, successive codes can be run within the control mechanism.
+* I have learnt that **debug.py** file in **utils** folder in Pico LTE SDK is necessary for information outputs after the operations performed. 
+* I have learnt that **manager.py** file in **utils** folder in Pico LTE SDK is one of the important files. The **Step** class here works by taking certain parameters and by determining the next step to run within itself, successive codes can be run within the control mechanism.
