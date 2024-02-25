@@ -7,6 +7,7 @@
 ### Examination of Developer Guideline File
 
 * I learnt what **PEP8** rules are and their details through [this site](https://realpython.com/python-pep8/#naming-conventions) 
+
     ![naming_conventions](images/week3-images/naming_conventions_PEP8.png) 
 * To learn the **pylint** working logic, I examined and updated my errors according to PEP8 rules in the library I wrote for communication with AT commands. 
 * Using black formatter, I learnt how to automatically update the code according to PEP8 rules without using pylint. 
