@@ -14,7 +14,7 @@
     * ![err_appplet](images/week4-images/err_applet_pro_users.png)
     * ![pro_users](images/week4-images/pro_payment.png)
 
-### MAKE Automation (formerly Integromat)
+### MAKE Automation (formerly Integromat) 
 
 * IFTTT application is impractical because the customer needs to access the Webhook service free of charge. As a result of my research, I think it would be more appropriate to use [Make Automation](https://www.help.make.com/en/help/tools/webhooks) application instead of IFTTT.  
 * I implemented a quick example via postman to learn the working logic of the Make automation application and to test the webhook service. 
