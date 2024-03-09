@@ -9,17 +9,17 @@
 - [x] Research sections such as **Conventional Commit, PEP-8 Style, Docstring, Gitflow.**
 - [x] To examine the existing codes in the application and sample code writing and to learn the **state manager** structure.
 
-## Week 2 - Creating a Basic IFTTT Python Application and Development 
+## Week 2 - Transition from IFTTT to Make.com Automation Platform
 
-- [ ] Writing a sample code to create a basic Python application using IFTTT's Webhook service.
-- [ ] Creating endpoints that will listen and react to requests from IFTTT.
-- [ ] Define and code basic functions and methods that can work with IFTTT.
+- [x] Realisation that the Webhook service on the IFTTT platform is paid.
+- [x] Finding Make.com (formerly integromat) automation platform that provides free Webhook service. 
+- [x] Developing a demo project for automation with POSTMAN via Make.com.
 
-## Week 3 - Integration and Developing Examples
+## Week 3 - Integration and Developing Examples on Make.com
 
-- [ ] Writing advanced code to integrate the Sixfab Raspberry Pi Pico W with IFTTT.
-- [ ] Sending direct commands to test the integration of IFTTT applets and Python code.
-- [ ] Auditing the workflows created as a result of IFTTT triggering actions and checking whether they are working correctly.
+- [ ] Writing advanced code to integrate the Sixfab Raspberry Pi Pico W with Make.com.
+- [ ] Sending direct commands to test the integration of Make.com applets and Python code.
+- [ ] Auditing the workflows created as a result of Make.com triggering actions and checking whether they are working correctly.
 
 ## Week 4 - Finalize and Documentation
 
