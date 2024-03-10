@@ -1,6 +1,11 @@
 ## Week5 
 
-### make_automation.py Uygulamasının Kodlanması 
+- [Week5](#week5)
+  - [Coding of make\_automation.py Application](#coding-of-make_automationpy-application)
+  - [Implementation of Sample Code](#implementation-of-sample-code)
+  - [CME ERROR: 701](#cme-error-701)
+
+### Coding of make_automation.py Application
 
 * First of all, I started the installation of make_automation.py with the integration of the necessary libraries.
 * Then I built the StateManager structure, which is the skeleton of the code. 
@@ -77,7 +82,7 @@
 
     ```
 
-### Örnek Kodun Uygulanması
+### Implementation of Sample Code
 
 * After I finished writing the application, I started the testing phase by creating sample code. 
 * First of all, I examined the sample codes written before. 
