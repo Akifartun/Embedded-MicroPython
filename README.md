@@ -26,9 +26,9 @@
 
 ## Week 3 - Integration and Developing Examples on Make.com
 
-- [ ] Writing advanced code to integrate the Sixfab Raspberry Pi Pico W with Make.com.
-- [ ] Sending direct commands to test the integration of Make.com applets and Python code.
-- [ ] Auditing the workflows created as a result of Make.com triggering actions and checking whether they are working correctly.
+- [x] Writing advanced code to integrate the Sixfab Raspberry Pi Pico W with Make.com.
+- [x] Sending direct commands to test the integration of Make.com applets and Python code.
+- [x] Auditing the workflows created as a result of Make.com triggering actions and checking whether they are working correctly.
 
 ## Week 4 - Finalize and Documentation
 
