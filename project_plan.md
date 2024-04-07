@@ -23,7 +23,7 @@
 
 ## Week 4 - Finalize and Documentation
 
-- [ ] Testing the final stages of the integration processes and making sure that the application is stable.
-- [ ] Writing the project documentation, including detailed instructions on how to use the tools and example scenarios.
-- [ ] To prepare a guide on how the project and code samples are created and how the integration is done.
-- [ ] Review the final report and documentation and publish to Github. 
+- [x] Testing the final stages of the integration processes and making sure that the application is stable.
+- [x] Writing the project documentation, including detailed instructions on how to use the tools and example scenarios.
+- [x] To prepare a guide on how the project and code samples are created and how the integration is done.
+- [x] Review the final report and documentation and publish to Github. 
