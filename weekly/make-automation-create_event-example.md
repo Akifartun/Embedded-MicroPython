@@ -71,9 +71,13 @@ Let's get started!
 
     ![](images/create_event-images/calendar_module_3.png)
 
-    Fields 1 and 2 should be selected as shown in the figure. After clicking on the fields numbered 4, 5 and 6, the relevant information should be entered from the sub-menu (indicated by number 3).
+    After pressed **"Create a connection** button, name the connection and press **"Sign in with Google"** button. 
 
     ![](images/create_event-images/calendar_module_4.png)
+
+    Fields 1 and 2 should be selected as shown in the figure. After clicking on the fields numbered 4, 5 and 6, the relevant information should be entered from the sub-menu (indicated by number 3).
+
+    ![](images/create_event-images/calendar_module_5.png)
 
 ## Test the Code Example 
 
