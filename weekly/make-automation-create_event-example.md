@@ -48,7 +48,7 @@ Let's get started!
     ![](images/create_event-images/webhook_module_3.png)
     ![](images/create_event-images/webhook_module_4.png)
 
-    The picture below shows that the webhook module is in listening mode to access the names of the variables you send. In this case, you need to run **"examples → make_automation → create_event.py "** once from the repository via Thonny IDE. Keep the webhook url that appears here for running the code. To run the code, go to **"Test the code example "** heading and after running it back continue from here. 
+    The picture below shows that the webhook module is in listening mode to access the names of the variables you send. In this case, you need to run **"examples → make_automation → create_event.py "** once from the repository via Thonny IDE. Keep the webhook url that appears here for running the code. To run the code, go to [**Test the code example**](#test-the-code-example) heading and after running it back continue from here. 
 
     ![](images/create_event-images/webhook_module_5.png)
 
@@ -75,7 +75,7 @@ Let's get started!
 
     ![](images/create_event-images/calendar_module_4.png)
 
-    Fields 1 and 2 should be selected as shown in the figure. After clicking on the fields numbered 4, 5 and 6, the relevant information should be entered from the sub-menu (indicated by number 3).
+    Fields 1 and 2 should be selected as shown in the figure. After clicking on the fields numbered 4, 5 and 6, the relevant information should be entered from the sub-menu (indicated by number 3). If you do not see any variable in the menu shown with 3, please refer to [**Troubleshooting**](#troubleshooting).
 
     ![](images/create_event-images/calendar_module_5.png)
 
@@ -112,3 +112,9 @@ Let's get started!
 7. After the system is in listening mode, you can run the **create_event.py** file. After running successfully, it looks like the picture below.
 
     ![](images/create_event-images/automation_system_success.png)
+
+## Troubleshooting
+
+1. If you can't see the variables from the Webhooks module (background coloured in red) while filling in the fields in the **second module (Google Calendar)**, click on the **"Webhooks "** module and click on the **"Redeterimine data structure "** button and then run **create_event.py** as shown below. After the code runs successfully, **"Succesfully determined"** appears. After saving the scenario and refreshing the page, you can now see your variables in the relevant fields. 
+
+    ![](images/create_event-images/troubleshooting.png)

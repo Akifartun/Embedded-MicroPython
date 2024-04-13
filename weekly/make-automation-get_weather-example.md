@@ -48,7 +48,7 @@ Let's get started!
     ![](images/get_weather-images/webhook_module_3.png)
     ![](images/get_weather-images/webhook_module_4.png)
 
-    The picture below shows that the webhook module is in listening mode to access the names of the variables you send. In this case, you need to run **"examples → make_automation → get_weather.py "** once from the repository via Thonny IDE. Keep the webhook url that appears here for running the code. To run the code, go to **"Test the code example "** heading and after running it back continue from here. 
+    The picture below shows that the webhook module is in listening mode to access the names of the variables you send. In this case, you need to run **"examples → make_automation → get_weather.py "** once from the repository via Thonny IDE. Keep the webhook url that appears here for running the code. To run the code, go to [**Test the code example**](#test-the-code-example) heading and after running it back continue from here. 
 
     ![](images/get_weather-images/webhook_module_5.png)
 
@@ -67,7 +67,7 @@ Let's get started!
 
     ![](images/get_weather-images/weather_module_2.png)
 
-    Here you can get the weather forecast as often as you want. For this example, select **"tomorrow "** under the "Days" heading. Also assign the City value entered by the user from the part shown with 2 for the city.
+    Here you can get the weather forecast as often as you want. For this example, select **"tomorrow "** under the "Days" heading. Also assign the City value entered by the user from the part shown with 2 for the city. If you do not see any variable in the menu shown with 2, please refer to [**Troubleshooting**](#troubleshooting).
 
     ![](images/get_weather-images/weather_module_3.png)
 
@@ -82,7 +82,11 @@ Let's get started!
 
     ![](images/get_weather-images/response_webhook_module_2.png)
 
-    This is the part where the information from Weather and Webhooks modules will be displayed to the user. For this example, it is filled like the field shown with 1. It can be changed according to request.
+    This is the part where the information from Weather and Webhooks modules will be displayed to the user. For this example, it is filled like the field shown with 1 and also you can fill with the following text. It can be changed according to user's request.
+
+    ```
+    City: {{1.City}} --- Tomorrow's Temperature: {{2.temperature.day}} --- Wind Speed: {{2.wind.speed}} --- Air Humidity: {{2.humidity}} --- General Description: {{2.description}} 
+    ```
 
     ![](images/get_weather-images/response_webhook_module_3.png)
 
@@ -116,3 +120,9 @@ Let's get started!
 6. After the system is in listening mode, you can run the **get_weather.py** file. After running successfully, it looks like the picture below.
 
     ![](images/get_weather-images/automation_system_success.png)
+
+## Troubleshooting
+
+1. If you can't see the variables from the Webhooks module (background coloured in red) while filling in the fields in the **second module (Weather)**, click on the **"Webhooks "** module and click on the **"Redeterimine data structure "** button and then run **get_weather.py** as shown below. After the code runs successfully, **"Succesfully determined"** appears. After saving the scenario and refreshing the page, you can now see your variables in the relevant fields. 
+
+    ![](images/get_weather-images/troubleshooting.png)
