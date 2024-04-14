@@ -113,6 +113,10 @@ Let's get started!
 
     ![](images/create_event-images/automation_system_success.png)
 
+8. Lastly, to keep the developed automation system continuously active, press the button marked with 1 in the lower left corner. 
+
+    ![](images/create_event-images/scheduling.png)
+
 ## Troubleshooting
 
 1. If you can't see the variables from the Webhooks module (background coloured in red) while filling in the fields in the **second module (Google Calendar)**, click on the **"Webhooks "** module and click on the **"Redeterimine data structure "** button and then run **create_event.py** as shown below. After the code runs successfully, **"Succesfully determined"** appears. After saving the scenario and refreshing the page, you can now see your variables in the relevant fields. 
